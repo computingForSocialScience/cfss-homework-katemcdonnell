@@ -1,0 +1,19 @@
+Final Project Proposal.
+i.
+
+	My project will be similar to the undergraduate twitter analysis.
+I am hoping to access cycling related tweets from Toronto in 2014. This year was selected because it was an election year in the city and transportation was at the forefront of leading campaigns. I will be looking for place names (mainly street names) and conduct the sentiment analysis. I would like to be able to intereact with this information within a GIS program (ArcGIS). This will create a map that displays areas that are avoided or discussed negatively, and areas that are frequented or discussed positvely. By inputting this into the GIS program I will be able to interact with data related to accidents, location of bikeways (bikelanes), bikeshare and bike post data from the city's open data portal. 
+
+ii.
+	This will be done as part of my thesis project. Through the collection and analysis of social media data I hope to explore how the online world reflects the perception and use of Toronto’s streets by the cycling community. The questions I will be asking include; do cyclists construct a unique environmental image of the city and how does social media reflect this environmental image through online conversation?  
+
+iii. Steps involed. 
+
+isolate tweets under popular hashtags. #bikeTO , #cycleToronto, #IbikeTO
+
+isolate tweets that reference specific street names. This list of streetnames will be taken from attribute table of an existing GIS shapefile. 
+ 
+sentiment analysis. 
+
+add sentiment analysis information to existing attribute table in ArcGIS. This will enable me to isolate streets based on sentiment analysis. 
+
