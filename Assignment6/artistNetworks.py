@@ -52,15 +52,12 @@ def getEdgeList(artistID, depth):
 
 def writeEdgeList(artistID, depth, filename):
     
-    getEdgeList(artistID, depth).to_csv(filename, index=False)
-    
-    print 'csv created'
+     EL=getEdgeList(artistID, depth).to_csv(filename, index=False)
+     
+     return EL
+   
 
-#writeEdgeList('Beck', 2, 'test_csv')
+#print writeEdgeList('Beck', 2, 'Beck_csv2')
 #writeEdgeList('Iron and Wine', 3, 'ironwine_csv')    
 #writeEdgeList('Bay City Rollers', 2, 'bcr_csv')   
-
-    
-    
-    
 
