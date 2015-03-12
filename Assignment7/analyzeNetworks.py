@@ -9,7 +9,7 @@ from artistNetworks import *
 
 def readEdgeList(filename):
     
-    df=pd.read_csv('filename')
+    df=pd.read_csv(filename)
     
     if len(df.columns)!= 2:
         print 'warning  dataframe contains more than 2 columns'

@@ -58,6 +58,6 @@ def writeEdgeList(artistID, depth, filename):
    
 
 #print writeEdgeList('Beck', 2, 'Beck_csv2')
-#writeEdgeList('Iron and Wine', 3, 'ironwine_csv')    
+writeEdgeList('Def Leppard', 3, 'def_csv')    
 #writeEdgeList('Bay City Rollers', 2, 'bcr_csv')   
 
