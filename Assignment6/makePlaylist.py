@@ -15,7 +15,7 @@ for i in sys.argv[1:]:
 for i in sys.argv[2:]:
     writeEdgeList(fetchArtistId(i), 2 , 'edgeList.csv')
     DF_edgeList = readEdgeList('edgeList.csv')
-    masterDF_edgeList = combineEdgeList(masterDF_edgelist, DF_edgeList)
+    masterDF_edgeList = combineEdgelist(masterDF_edgeList, DF_edgeList)
 
 random_node_list = []
 DG= pandasToNetworkX(masterDF_edgeList)
